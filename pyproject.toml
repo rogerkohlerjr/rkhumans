@@ -22,5 +22,5 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/rogerkohlerjr/humans"
-Issues = "https://github.com/rogerkohlerjr/humans"
+Homepage = "https://github.com/rogerkohlerjr/rkhumans"
+Issues = "https://github.com/rogerkohlerjr/rkhumans"
