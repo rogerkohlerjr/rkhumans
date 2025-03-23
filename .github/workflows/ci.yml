@@ -31,7 +31,7 @@ jobs:
     - name: Format with ruff
       run: uv run ruff format .
     - name: Test with pytest
-      run: uv run pytest
+      run: pytest
     - name: Build and Upload to TestPyPI
       run: |
           uv build
