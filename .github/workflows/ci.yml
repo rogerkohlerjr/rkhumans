@@ -33,12 +33,11 @@ jobs:
       run: uv run ruff format .
     - name: Test with pytest
       run: uv run pytest
-
       # Upload to TestPyPI
     - name: Build and Upload to TestPyPI
       run: |
           uv build
-          uv publish -- --repo test dist/*
+          uv publish dist/*
         env:
           UV_PUBLISH_URL: "https://test.pypi.org/legacy/"
           UV_PUBLISH_TOKEN: ${{ secrets.UV_PUBLISH_TOKEN }}
