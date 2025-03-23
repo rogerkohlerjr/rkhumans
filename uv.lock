@@ -2248,7 +2248,7 @@ wheels = [
 
 [[package]]
 name = "rkhumans"
-version = "0.0.1"
+version = "0.0.2"
 source = { editable = "." }
 dependencies = [
     { name = "build", version = "0.5.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.6'" },

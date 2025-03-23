@@ -4,11 +4,11 @@ build-backend = "hatchling.build"
 
 [project]
 name = "rkhumans"
-version = "0.0.2"
+version = "0.0.5"
 authors = [
   { name="Roger Kohler", email="roger.kohlerjr@gmail.com" },
 ]
-description = "collection of biblical humans and their family relations"
+description = "A collection of biblical humans and their family relations"
 readme = "README.md"
 requires-python = ">=3.0"
 classifiers = [
@@ -17,10 +17,9 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-    "build>=0.5.1",
     "hatch>=0.23.1",
 ]
 
 [project.urls]
 Homepage = "https://github.com/rogerkohlerjr/rkhumans"
-Issues = "https://github.com/rogerkohlerjr/rkhumans"
+Issues = "https://github.com/rogerkohlerjr/rkhumans/issues"
