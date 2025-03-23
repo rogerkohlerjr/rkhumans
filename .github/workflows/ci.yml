@@ -26,8 +26,7 @@ jobs:
       run: pip install uv
     - name: Install dependencies
       run: uv sync
-    - name: Install ruff
-      run: curl -LsSf https://astral.sh/ruff/install.sh | sh
+      # dev dependencies include ruff pytest & pytest-cov
     - name: Lint with ruff
       run: uv run ruff check .
     - name: Format with ruff
